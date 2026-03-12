@@ -1,1 +1,163 @@
-<h1>Hello World Wide Web!</h1>
+<!DOCTYPE html>
+<html lang="en-ca"> 
+  
+  <head>
+    
+    <title>Exercise 7: Typography</title>
+    <meta charset="utf-8">
+    <!-- Created by Yasemin Gunal on 3/12/26 --> 
+    <!--This receipe is taken from https://cooking.nytimes.com/recipes/1012494-spinach-tofu-and-sesame-stir-fry -->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    
+    
+    
+    <style>
+    
+      *{box-sizing: border-box;}
+  
+      
+      #main {
+        width: 1200px;
+        font-size: 16px;
+        text-align: center;
+        margin: 0px;
+        border: 0px;
+        padding: 0px;
+        background-color: lightgreen;
+        color: mediumblue; 
+      }
+      
+      .container {
+        display: grid;
+        grid-template-columns: 50% 50%;    
+        margin: 0 auto;
+
+      }
+      
+       .grid {
+         width: 400px;
+      }
+      
+      .grid:first-child {
+        margin-left: 45px;
+      }
+      
+      .grid:nth-child(2) {
+        margin-left: -100px;
+      }
+      
+      .grid:nth-child(3) {
+        margin-left: 25px;
+      }
+      
+      .grid:nth-child(4) {
+        margin-left: -40px;
+      }
+      
+      h1, h2, h3 {
+        font-family: Domine;
+        color: navy;
+      }
+      h1 {
+        font-size: 2.5em;
+      }
+      h2 {
+        font-size: 1.5em;
+      }
+      h3 {
+        font-size: 1.2em;
+      }
+      
+      
+      p, ul {
+        font-family: Quicksand;
+        list-style: none;
+
+      }
+      
+      p {
+        text-align: left;
+  
+      }
+     
+    </style>
+    
+  </head>
+  
+  
+  <body>  
+    <div id="main">
+      <div class="container">
+        
+      <div class="grid">
+      <h1>
+        Spinach, Tofu and Sesame Stir-Fry
+      </h1>
+      <h2>
+        By: Martha Rose Shulman <br>
+        Yield: 3 Servings <br>
+      </h2>
+      </div>
+      
+      <div class="grid">
+      <img src="imsohungry.jpg" alt="Picture of cubed tofu and spinach fried together, topped with sesame seeds." style="width:500px;">
+      </div>
+      
+      <div class="grid">
+      <h3 style="margin-left:40px">
+        Ingredients
+      </h3>
+      <ul>
+        <li>1 tablespoon canola oil</li>
+        <li>½ pound tofu, cut in small dice</li>
+        <li>1 large garlic clove, minced</li>
+        <li>1 teaspoon grated or minced fresh ginger</li>
+        <li>¼ teaspoon red chili flakes</li>
+        <li>Soy sauce to taste</li>
+        <li>16-ounce bag baby spinach, rinsed</li>
+        <li>2 tablespoons toasted sesame seeds</li>
+        <li>1 teaspoon sesame oil</li>
+      </ul>
+      </div>
+      
+      <div class="grid">
+      <h2>
+        Preparation
+      </h2>
+      <h3>
+        Step 1
+      </h3>
+      <p>
+        Heat the canola oil over medium-high heat in a large 
+        nonstick skillet or wok, and add the tofu. Stir-fry 
+        until the tofu is lightly colored, three to five minutes, 
+        and add the garlic, ginger and chili flakes. Cook, stirring, 
+        until fragrant, about one minute, and add soy sauce to taste. 
+        Add the spinach and stir-fry until the spinach wilts, 
+        about one minute.  Stir in the sesame seeds, and add more soy 
+        sauce to taste. Remove from the heat.
+      </p>
+      <h3>
+        Step 2
+      </h3>
+      <p>
+        Step 2
+        Using tongs, transfer the spinach and tofu mixture to a serving bowl, leaving the liquid behind in the pan or wok. Drizzle with the sesame oil, and add more soy sauce as desired. Serve with rice or other grains, or noodles. You may also use it as a filling for whole wheat pita bread.
+      </p>
+      <h3>
+        Tip
+      </h3>
+      <p>
+        Advance preparation: This is a last-minute preparation, but you can have your ingredients prepared well in advance.
+      </p>
+      </div>
+    </div>
+    </div>
+  </body>
+  
+</html>
+
+  
